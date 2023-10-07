@@ -31,7 +31,10 @@ $(document).ready(function() {
             }
         },
         messages: {
-            nome: 'Por favor, insira o seu nome'
+            nome: 'Por favor, insira o seu nome',
+            telefone: 'Por favor, insira seu telefone',
+            email: 'Por favor, insira seu e-mail',
+            mensagem: 'Por favor, insira sua mensagem'
         },
         submitHandler: function(form) {
             console.log(form)
